@@ -11,7 +11,7 @@ A **responsive** and **accessible** order summary component built using HTML and
 ## 🛠 Technologies Used
 
 - HTML5
-- CSS3 (animation and resposnive layout)
+- CSS3 (animation and responsive layout)
 
 ## 🎯 How to Use
 1. Clone the repository:  
