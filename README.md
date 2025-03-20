@@ -14,5 +14,8 @@ A **responsive** and **accessible** order summary component built using HTML and
 - HTML5
 - CSS3
 
-## 📖 How to Use
+## 🎯 How to Use
+1. Clone the repository:  
+   ```bash
+   
 
