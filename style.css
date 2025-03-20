@@ -1,0 +1,120 @@
+body{
+    background-color: aliceblue;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+}
+
+h2{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight:900;
+    color:rgba(0, 0, 0,0.79);
+}
+#container{
+    height:605px;
+    width:370px;
+    background-color: white;
+    border-radius:15px;
+    text-align:center;
+    animation: neonGlow 1.5s infinite alternate;
+}
+
+#hero-image{
+    width:100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom:15px;
+    
+}
+
+#payment-details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:70px;
+    width:80%;
+    margin:20px auto;
+    background-color: rgb(245, 247, 255);
+    padding:15px;
+    border-radius:10px;
+}
+
+a{
+    color: rgba(56, 41, 224,1);
+    font-weight:600;
+    margin-right:10px
+}
+
+#plan-details{
+    margin-right:60px;
+    line-height: 5px;
+}
+
+#plan-details p{
+    color: rgba(0, 0, 0,0.5);
+    font-weight:500;
+}
+
+#icon-image{
+    margin-left:10px;
+}
+
+#summary{
+    font-size:16px;
+    color:rgba(128, 128, 128,0.8);
+    font-weight: 550;
+    font-family: "Red Hat Display", sans-serif;
+   
+    
+}
+
+#payment{
+    background-color:rgb(4, 55, 242);
+    height:40px;
+    width:80%;
+    border-radius:10px;
+    color:white;
+    border:2px solid rgb(4, 55, 242);
+    box-shadow: 1px 1px 4px rgb(4, 55, 242);
+    font-weight:700;
+    margin-top:10px;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+#cancel-order{
+    background-color: white;
+    border:none;
+    margin-top:25px;
+    color:rgba(128, 128, 128,0.8);
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h4{
+    font-family: "Red Hat Display", sans-serif;
+    color:rgba(0, 0, 0,0.79);
+    font-weight:900;
+}
+
+@media(min-width:375px) and (max-width:1440px){
+    body{
+        background-image: url(pattern-background-desktop.svg);
+    }
+}
+
+@keyframes neonGlow {
+    0% {
+        box-shadow: 0 0 10px #4d5bf9;
+    }
+    50% {
+        box-shadow: 0 0 20px #4d5bf9;
+    }
+    100% {
+        box-shadow: 0 0 30px #4d5bf9;
+    }
+}
+
+
