@@ -17,5 +17,6 @@ A **responsive** and **accessible** order summary component built using HTML and
 ## 🎯 How to Use
 1. Clone the repository:  
    ```bash
+   https://github.com/prachi757/Online-Summary-Component.git
    
 
